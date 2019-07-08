@@ -1,0 +1,1 @@
+../../../BlueCatsSDK/Headers/BCDefinitions.h
