@@ -1,1 +1,0 @@
-../../../BlueCatsSDK/Headers/BCTemperatureData.h

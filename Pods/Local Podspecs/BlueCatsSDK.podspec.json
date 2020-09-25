@@ -1,9 +1,9 @@
 {
   "name": "BlueCatsSDK",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "license": {
     "type": "Commercial",
-    "text": "              All text and design is copyright © 2013-2017 BlueCats Australia Pty Ltd.\n\n              All rights reserved.\n\n              https://bluecats.com/tos/\n"
+    "text": "              All text and design is copyright © 2013-2019 BlueCats Australia Pty Ltd.\n              All rights reserved.\n              https://bluecats.com/tos/\n"
   },
   "summary": "BlueCatsSDK for micro-location.",
   "homepage": "http://www.bluecats.com",
@@ -11,8 +11,7 @@
     "BlueCats": "theteam@bluecats.com"
   },
   "source": {
-    "git": "https://github.com/bluecats/bluecats-ios-sdk.git",
-    "tag": "2.0.3"
+    "http": "https://downloads.apps.bluecats.com/sdks/ios/bluecats-ios-sdk-2.1.0.zip"
   },
   "platforms": {
     "ios": "8.0"

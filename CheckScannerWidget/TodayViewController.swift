@@ -27,6 +27,8 @@ class TodayViewController: UIViewController, NCWidgetProviding, BCBeaconManagerD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print ("Widget loaded")
+        
         // Do any additional setup after loading the view from its nib.
         formatter.dateFormat = "HH:mm:ss.SSS"
         
@@ -37,6 +39,7 @@ class TodayViewController: UIViewController, NCWidgetProviding, BCBeaconManagerD
     }
     
     func startScanners() {
+        print ("Starting scanners for widget")
       
 //        guard let defaults = UserDefaults(suiteName: "group.com.bluecats.checkscanner") else {
 //            textLabel.text = "Ummmm, defaults read was bad"
@@ -71,7 +74,8 @@ class TodayViewController: UIViewController, NCWidgetProviding, BCBeaconManagerD
     
     //MARK:- BlueCatsSDK
     func startScanning (withAppToken token:String) {
-        
+        print ("Starting bluecatssdk for widget")
+
         BlueCatsSDK.setOptions([BCOptionScanInBackground:true, BCOptionUseEnergySaverScanStrategy: false])
 
         BlueCatsSDK.startPurring(withAppToken: token, completion: { (BCStatus) -> Void in
@@ -154,6 +158,8 @@ class TodayViewController: UIViewController, NCWidgetProviding, BCBeaconManagerD
         }
         
         let now = Date()
+        
+        print ("Beacons: \(String(describing: beacons))")
         
         for currentBeacon in beacons {
             let beaconMode:String = currentBeacon.beaconMode?.description ?? "Beacon"

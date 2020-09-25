@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,28 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
-                                <rect key="frame" x="116" y="41" width="89" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cafe Stamper.png" translatesAutoresizingMaskIntoConstraints="NO" id="9LO-BZ-QY6">
-                                <rect key="frame" x="92" y="17" width="136" height="28"/>
+                                <rect key="frame" x="0.0" y="0.0" width="228" height="46"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stamp.png" translatesAutoresizingMaskIntoConstraints="NO" id="zUd-75-HP2">
-                                <rect key="frame" x="135.5" y="19" width="50" height="37"/>
+                                <rect key="frame" x="254" y="20" width="50" height="37"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
+                                <rect key="frame" x="116" y="53" width="88" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <constraints>
-                            <constraint firstItem="zUd-75-HP2" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="Cuo-fZ-fhX"/>
-                            <constraint firstItem="zUd-75-HP2" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="cu8-gQ-WKC"/>
-                            <constraint firstItem="GcN-lo-r42" firstAttribute="centerX" secondItem="9LO-BZ-QY6" secondAttribute="centerX" id="izF-aN-f88"/>
-                            <constraint firstItem="9LO-BZ-QY6" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="17" id="kmp-Xh-4zf"/>
-                            <constraint firstItem="GcN-lo-r42" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="41" id="sia-v5-p3Q"/>
-                            <constraint firstItem="9LO-BZ-QY6" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="yfu-Ai-3vg"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                        <constraints>
+                            <constraint firstItem="9LO-BZ-QY6" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" id="9LZ-GG-oNw"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="9LO-BZ-QY6" secondAttribute="trailing" constant="92" id="9N8-Fp-MsI"/>
+                            <constraint firstItem="zUd-75-HP2" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="EA9-be-4Ix"/>
+                            <constraint firstItem="9LO-BZ-QY6" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="EPH-4u-M8O"/>
+                            <constraint firstItem="zUd-75-HP2" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="20" id="L6R-Qu-uE5"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="bottom" secondItem="9LO-BZ-QY6" secondAttribute="bottom" constant="28" id="WLr-Q8-Fzr"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="top" secondItem="9LO-BZ-QY6" secondAttribute="bottom" constant="7" id="dbr-qk-ks8"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="qMN-I5-prZ"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -55,7 +55,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Cafe Stamper.png" width="136" height="28"/>
+        <image name="Cafe Stamper.png" width="408" height="84"/>
         <image name="Stamp.png" width="50" height="37"/>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
