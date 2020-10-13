@@ -3,384 +3,424 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		AEC4C121232D1676F82FC7D66CF8752F /* BlueCatsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D525151F0B8FE1DA7642F2069B80379E /* Build configuration list for PBXAggregateTarget "BlueCatsSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BlueCatsSDK;
+			productName = BlueCatsSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1EC8784793466573042FEF77463FD7E5 /* Pods-CheckScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F31D2BED0CBF022A5AD1BF8408590C /* Pods-CheckScanner-dummy.m */; };
-		4B54BA6E1692D8054856C9D869D00A3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AF3DC253449B805D87704E5D2A117E1F /* Pods-CheckScannerWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A82442D4EB92FDA6CADC9DF7760A116 /* Pods-CheckScannerWidget-dummy.m */; };
-		C3AE21BEFB9FDC9A358E24AAF685957D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB52A3DC83E390B4765DAF436FA255DC /* Pods-CheckScannerWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BF8693C385E998D0C360F5C66E8CD /* Pods-CheckScannerWidget-dummy.m */; };
+		D7BFBCFA682F41A9E537364EA118EDA2 /* Pods-CheckScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1FDD74A1189A8FCEAC7C7481BBC634 /* Pods-CheckScanner-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3D23AC9FB0E8ED009E8741419B3CF206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC4C121232D1676F82FC7D66CF8752F;
+			remoteInfo = BlueCatsSDK;
+		};
+		9410B0379A69131345E7C5BC5CB293CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC4C121232D1676F82FC7D66CF8752F;
+			remoteInfo = BlueCatsSDK;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1090551199DB6451E6C4668F6AA5BC7D /* BCEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEvent.h; path = Headers/BCEvent.h; sourceTree = "<group>"; };
-		12E93B7D665E931A58AA61EF5D67A7D5 /* BCEventFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEventFilter.h; path = Headers/BCEventFilter.h; sourceTree = "<group>"; };
-		1384CD396F9A91607D860E6882A608C6 /* BCAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCAddress.h; path = Headers/BCAddress.h; sourceTree = "<group>"; };
-		138C0ED6078DD658BF1F7DA276F8DA5F /* BCDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCDefinitions.h; path = Headers/BCDefinitions.h; sourceTree = "<group>"; };
-		1A82442D4EB92FDA6CADC9DF7760A116 /* Pods-CheckScannerWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckScannerWidget-dummy.m"; sourceTree = "<group>"; };
-		254FE1CFF2B33665E779C65E66A307E0 /* Pods-CheckScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScanner.debug.xcconfig"; sourceTree = "<group>"; };
-		27F723E20102A6F4CEEB5E2D08E35780 /* BCSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCSite.h; path = Headers/BCSite.h; sourceTree = "<group>"; };
-		2A466FBF7797889F00C17491F7648B6B /* Pods-CheckScanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckScanner-resources.sh"; sourceTree = "<group>"; };
-		2B6DE0B26087FA6A472B94CF655312AB /* BCTargetSpeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCTargetSpeed.h; path = Headers/BCTargetSpeed.h; sourceTree = "<group>"; };
-		3BCF6FD0AA29AB21961A9AF9DF6C736A /* BCCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCCategory.h; path = Headers/BCCategory.h; sourceTree = "<group>"; };
-		3DB916C1361533A628D5B5223DF26EB5 /* Pods-CheckScannerWidget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckScannerWidget-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3DC7C2895D618760DDB82DBCDFA36D63 /* BCBatteryStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBatteryStatus.h; path = Headers/BCBatteryStatus.h; sourceTree = "<group>"; };
-		40C81561966FC669960D49686318B281 /* BCLassoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLassoManager.h; path = Headers/BCLassoManager.h; sourceTree = "<group>"; };
-		44258573A16AE63BEBECDD81C9B75EEC /* Pods-CheckScannerWidget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckScannerWidget-acknowledgements.plist"; sourceTree = "<group>"; };
-		459CBEC77D9DB127ACDE8C108D8C125C /* BCBeaconVisit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconVisit.h; path = Headers/BCBeaconVisit.h; sourceTree = "<group>"; };
-		4C0AAD02795E3DB6C5C23447F3E3904F /* BCLocalNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLocalNotificationManager.h; path = Headers/BCLocalNotificationManager.h; sourceTree = "<group>"; };
-		56236273B2A7A37C1AB5693BAE10C080 /* Pods-CheckScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckScanner-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B5CB1D8B7643ADE5EE0B82F2985FE2D /* BCZoneMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCZoneMonitor.h; path = Headers/BCZoneMonitor.h; sourceTree = "<group>"; };
-		5EBD7E95D800A7F53DF895E1AE31F8EC /* BCEventFilterContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEventFilterContext.h; path = Headers/BCEventFilterContext.h; sourceTree = "<group>"; };
-		63B73E1211D2ECAC69BE0352949A726B /* BCTemperatureData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCTemperatureData.h; path = Headers/BCTemperatureData.h; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		681DE062537F13EA65A7384EA64154BC /* BCBeaconMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconMode.h; path = Headers/BCBeaconMode.h; sourceTree = "<group>"; };
-		6B180B073BEB082E3B295A3E7BF2846A /* BCBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeacon.h; path = Headers/BCBeacon.h; sourceTree = "<group>"; };
-		6CFA11EB28FF9DFE52D26D644D828E04 /* NSPredicate+BCBeaconFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+BCBeaconFilter.h"; path = "Headers/NSPredicate+BCBeaconFilter.h"; sourceTree = "<group>"; };
-		6F6385A26D5EAEC83D9596A9A76C0358 /* BCLocalNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLocalNotification.h; path = Headers/BCLocalNotification.h; sourceTree = "<group>"; };
-		780DBD56B01E3B8B5551B3A0B305BBDF /* BCMicroLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMicroLocation.h; path = Headers/BCMicroLocation.h; sourceTree = "<group>"; };
-		8367193ECE8266C1805B8D8A369BF80F /* BCEventManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEventManager.h; path = Headers/BCEventManager.h; sourceTree = "<group>"; };
-		87D92AFA9F00921D83A63FA9E9D8E302 /* Pods-CheckScannerWidget-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckScannerWidget-resources.sh"; sourceTree = "<group>"; };
-		8BBE7F85E5F2EC2563739B08550A8560 /* Pods-CheckScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckScanner-frameworks.sh"; sourceTree = "<group>"; };
-		8C96C370B94DE6054D3DE115F8B5A115 /* BCBeaconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconManager.h; path = Headers/BCBeaconManager.h; sourceTree = "<group>"; };
-		915AD6B9BCE1715252FE67C5C51DA5A7 /* BCPlatformType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCPlatformType.h; path = Headers/BCPlatformType.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		950EA31DD03E66A6B17C2AB2FF5A4272 /* BCBeacon+Capabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BCBeacon+Capabilities.h"; path = "Headers/BCBeacon+Capabilities.h"; sourceTree = "<group>"; };
-		9DA1BE971927E8224C061190EEF22C2D /* BCMicroLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMicroLocationManager.h; path = Headers/BCMicroLocationManager.h; sourceTree = "<group>"; };
-		9DC7C98547E4FE510F877D8806F65C10 /* BCTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCTrigger.h; path = Headers/BCTrigger.h; sourceTree = "<group>"; };
-		A0F31D2BED0CBF022A5AD1BF8408590C /* Pods-CheckScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckScanner-dummy.m"; sourceTree = "<group>"; };
-		A21A54F5CC951E97F54E5E62DDFCC2C7 /* BCLasso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLasso.h; path = Headers/BCLasso.h; sourceTree = "<group>"; };
-		A26F4F4C903CA311C0C99085D21568D9 /* BCBeacon+Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BCBeacon+Analytics.h"; path = "Headers/BCBeacon+Analytics.h"; sourceTree = "<group>"; };
-		A9F0EC09BC64732EC296424E9552D083 /* Pods-CheckScannerWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScannerWidget.release.xcconfig"; sourceTree = "<group>"; };
-		ACCD12C2ED1CEAB4CF59DED427B5B940 /* BCCustomValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCCustomValue.h; path = Headers/BCCustomValue.h; sourceTree = "<group>"; };
-		B4DE0995B76B71522F5DDD10D521FF67 /* Pods-CheckScannerWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScannerWidget.debug.xcconfig"; sourceTree = "<group>"; };
-		B612FE98A296049C75E2D30D8E69FC14 /* BCResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCResource.h; path = Headers/BCResource.h; sourceTree = "<group>"; };
-		B81F06BFE8FE495381BA4326A3A1F075 /* BCPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCPoint.h; path = Headers/BCPoint.h; sourceTree = "<group>"; };
-		C05EA0A0506F3DC17FED071E59B9B32D /* BCJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCJSONModel.h; path = Headers/BCJSONModel.h; sourceTree = "<group>"; };
-		C275D028A8F4528640A92CC44FE0E94A /* BCCategory+Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BCCategory+Analytics.h"; path = "Headers/BCCategory+Analytics.h"; sourceTree = "<group>"; };
-		C311E6B0AD4B77C8CB39C7B99AD32362 /* BCMapPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMapPoint.h; path = Headers/BCMapPoint.h; sourceTree = "<group>"; };
-		C445B4449B4D902CCFD7668E5C36092A /* libBlueCatsSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libBlueCatsSDK.a; sourceTree = "<group>"; };
-		CA666C792E7D7FE60B6A18228D5DA401 /* libPods-CheckScannerWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheckScannerWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CECE590CA9913D42C940A0A6A0E2050A /* libPods-CheckScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheckScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF81B3BBC751CD1D72AD610E010F5482 /* BCMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMap.h; path = Headers/BCMap.h; sourceTree = "<group>"; };
-		D264FC30DF9C3CA3CC3249B1C7C84E75 /* BCEddystone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEddystone.h; path = Headers/BCEddystone.h; sourceTree = "<group>"; };
-		D41511063812177B38F006351549509D /* BCApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCApp.h; path = Headers/BCApp.h; sourceTree = "<group>"; };
-		D69C6447513CFFADFB45D36F714739A1 /* BCBeaconLoudness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconLoudness.h; path = Headers/BCBeaconLoudness.h; sourceTree = "<group>"; };
-		DB77CF7DFC15EE0957B0652AECBA8C1A /* BCTriggeredEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCTriggeredEvent.h; path = Headers/BCTriggeredEvent.h; sourceTree = "<group>"; };
-		EF944C35133AD2236DF3B434F381F3C5 /* Pods-CheckScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScanner.release.xcconfig"; sourceTree = "<group>"; };
-		F651DFFF9C571354EFC5F2554A420C09 /* BCZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCZone.h; path = Headers/BCZone.h; sourceTree = "<group>"; };
-		F7900C7AF04035D514CE06465B437731 /* BCSiteAccessType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCSiteAccessType.h; path = Headers/BCSiteAccessType.h; sourceTree = "<group>"; };
-		FB1391E7693AFF41D0EDA2D0E9381039 /* Pods-CheckScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FDFDBDD37FB49FC830D66ECF4EF47141 /* BCBeaconRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconRegion.h; path = Headers/BCBeaconRegion.h; sourceTree = "<group>"; };
-		FF38E8D808B65D8708FFA10AC6F26978 /* BlueCatsSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlueCatsSDK.h; path = Headers/BlueCatsSDK.h; sourceTree = "<group>"; };
+		06A5E2745D5B03867635E70FB9A96CF9 /* libPods-CheckScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheckScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBC24DA91296268DB1E159E5EB7A3F3 /* BCMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMap.h; path = Headers/BCMap.h; sourceTree = "<group>"; };
+		0BFFA55F9C0033435CDFB5A26C311AB4 /* NSPredicate+BCBeaconFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+BCBeaconFilter.h"; path = "Headers/NSPredicate+BCBeaconFilter.h"; sourceTree = "<group>"; };
+		0C50030BA6FED734BBDEB38D746ABA2B /* BCEventFilterContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEventFilterContext.h; path = Headers/BCEventFilterContext.h; sourceTree = "<group>"; };
+		0ED117D1F9B282856AE061B552CCF33B /* BlueCatsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueCatsSDK.release.xcconfig; sourceTree = "<group>"; };
+		0F1FDD74A1189A8FCEAC7C7481BBC634 /* Pods-CheckScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckScanner-dummy.m"; sourceTree = "<group>"; };
+		0F2D61B3B105A55C82DB4CAD12407AF2 /* BCBeaconMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconMode.h; path = Headers/BCBeaconMode.h; sourceTree = "<group>"; };
+		1131DCD8BA59038CFA103E5C5198983D /* Pods-CheckScannerWidget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckScannerWidget-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1291F394ECB5AAC1D79382E011A52A03 /* BCMapPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMapPoint.h; path = Headers/BCMapPoint.h; sourceTree = "<group>"; };
+		13308CA57FEFBA7129E4832FA5778432 /* Pods-CheckScannerWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScannerWidget.release.xcconfig"; sourceTree = "<group>"; };
+		18E979CFE93EA8646C746DF23EA6D1F8 /* BCTriggeredEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCTriggeredEvent.h; path = Headers/BCTriggeredEvent.h; sourceTree = "<group>"; };
+		1979010812212E59D892F658B7B9754A /* BCPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCPoint.h; path = Headers/BCPoint.h; sourceTree = "<group>"; };
+		1B4988577ECE2D030DCA659B722A8DFA /* BCTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCTrigger.h; path = Headers/BCTrigger.h; sourceTree = "<group>"; };
+		1F9BF8693C385E998D0C360F5C66E8CD /* Pods-CheckScannerWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckScannerWidget-dummy.m"; sourceTree = "<group>"; };
+		26404AE7C38478C34D266D1F4B761E02 /* BCBatteryStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBatteryStatus.h; path = Headers/BCBatteryStatus.h; sourceTree = "<group>"; };
+		278E82B12DB72B377C89AAC67E84130E /* Pods-CheckScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		28405D93EA323E3784418AF27C465B36 /* Pods-CheckScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScanner.release.xcconfig"; sourceTree = "<group>"; };
+		2F6EC1B5DA3CE93185C60631BD369169 /* libBlueCatsSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libBlueCatsSDK.a; sourceTree = "<group>"; };
+		3E672B536672586FDA19A910B378903D /* Pods-CheckScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FDC5203EB9A4DBB8CDF27322637BE53 /* BCSiteAccessType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCSiteAccessType.h; path = Headers/BCSiteAccessType.h; sourceTree = "<group>"; };
+		4B507626C3C9DB0FA6CBCA29C47E2CB9 /* BCBeaconLoudness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconLoudness.h; path = Headers/BCBeaconLoudness.h; sourceTree = "<group>"; };
+		4BB63AE560A4ECA1BA7A9A02FDDD1C51 /* BCAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCAddress.h; path = Headers/BCAddress.h; sourceTree = "<group>"; };
+		4D9AC40E9B85400FCD92F26EA3703E30 /* BCBeacon+Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BCBeacon+Analytics.h"; path = "Headers/BCBeacon+Analytics.h"; sourceTree = "<group>"; };
+		53B6FA5FE9F65F07455010662325F9FD /* BlueCatsSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlueCatsSDK.h; path = Headers/BlueCatsSDK.h; sourceTree = "<group>"; };
+		5C58A63FD4E771D417AA72CB9B3F737A /* BCZoneMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCZoneMonitor.h; path = Headers/BCZoneMonitor.h; sourceTree = "<group>"; };
+		61D3CA3B53DF5E95AD7897C104E18DF3 /* BlueCatsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueCatsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		6624EBAB1E8B3B2D94B44AA95CD13A83 /* Pods-CheckScannerWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScannerWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		6DA01C6347453632217CA5AB042564BA /* BCEventFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEventFilter.h; path = Headers/BCEventFilter.h; sourceTree = "<group>"; };
+		6E7EB1CCBBAC37909562C140717E1C5E /* BCTargetSpeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCTargetSpeed.h; path = Headers/BCTargetSpeed.h; sourceTree = "<group>"; };
+		70A2773FCFC238C14ACA2867A63C622B /* BCEventManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEventManager.h; path = Headers/BCEventManager.h; sourceTree = "<group>"; };
+		722CF72549DB29620BE1561AC5F1E02A /* BCMicroLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMicroLocationManager.h; path = Headers/BCMicroLocationManager.h; sourceTree = "<group>"; };
+		73E8D211B9CAF728C9B6B945BFD94909 /* BCPlatformType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCPlatformType.h; path = Headers/BCPlatformType.h; sourceTree = "<group>"; };
+		7623ED394272A227E13EDEE012C5C9FC /* Pods-CheckScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		7F9BF524DDB6F59D15F0A401D1D5227B /* BCBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeacon.h; path = Headers/BCBeacon.h; sourceTree = "<group>"; };
+		81C346573077CD094F6C643334537726 /* Pods-CheckScannerWidget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckScannerWidget-acknowledgements.plist"; sourceTree = "<group>"; };
+		84A61D8EE3301254C39E73FE0F23DCE3 /* BCEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEvent.h; path = Headers/BCEvent.h; sourceTree = "<group>"; };
+		8E884F88BA9921F3ED6A5CAA78D37A0A /* BCEddystone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCEddystone.h; path = Headers/BCEddystone.h; sourceTree = "<group>"; };
+		8E8C00E03C684DD18CB76DE7B6875CF3 /* BCBeaconVisit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconVisit.h; path = Headers/BCBeaconVisit.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A66B589F03CA0AF3636896D483C03A75 /* BCBeacon+Features.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BCBeacon+Features.h"; path = "Headers/BCBeacon+Features.h"; sourceTree = "<group>"; };
+		A7635AE06DAA72EE2C254D148C56DD9B /* BCMeasurement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMeasurement.h; path = Headers/BCMeasurement.h; sourceTree = "<group>"; };
+		A77D11C437672AE64DF7326A89B9208C /* BCApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCApp.h; path = Headers/BCApp.h; sourceTree = "<group>"; };
+		AE81C56C0E29692343D0B8380E37E8B4 /* BCBeaconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconManager.h; path = Headers/BCBeaconManager.h; sourceTree = "<group>"; };
+		AFC64FA51F21A8BD90A4FCABD1818EC3 /* BCLasso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLasso.h; path = Headers/BCLasso.h; sourceTree = "<group>"; };
+		B7BEDCDBB5BEB8820CD4991C732D003D /* BCCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCCategory.h; path = Headers/BCCategory.h; sourceTree = "<group>"; };
+		C096D31596941B3C6F132C460F9CAE53 /* BCCategory+Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BCCategory+Analytics.h"; path = "Headers/BCCategory+Analytics.h"; sourceTree = "<group>"; };
+		C1ED54E79C1DA6ED06AEF1A3AE4F5677 /* BCBeaconRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconRegion.h; path = Headers/BCBeaconRegion.h; sourceTree = "<group>"; };
+		C2BE75BD7D0CFCFC804A1FB749F9CB51 /* BCBeaconRegionVisit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCBeaconRegionVisit.h; path = Headers/BCBeaconRegionVisit.h; sourceTree = "<group>"; };
+		CB82BBAC90B25943AF3545603145BCA0 /* BCLocalNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLocalNotificationManager.h; path = Headers/BCLocalNotificationManager.h; sourceTree = "<group>"; };
+		CDB47425C45DF02A4855268FEFED7B1E /* BCSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCSite.h; path = Headers/BCSite.h; sourceTree = "<group>"; };
+		CE24027B768720D6B3F12439E0F81800 /* BCResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCResource.h; path = Headers/BCResource.h; sourceTree = "<group>"; };
+		D552563188D0EB6E7C4FA06408848135 /* BCDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCDefinitions.h; path = Headers/BCDefinitions.h; sourceTree = "<group>"; };
+		E9AA39B3DA6CEDB1BD14CC6BB29CAAF7 /* BCLassoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLassoManager.h; path = Headers/BCLassoManager.h; sourceTree = "<group>"; };
+		EC1395591845EA76D3D033F1A01DAA0D /* BCCustomValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCCustomValue.h; path = Headers/BCCustomValue.h; sourceTree = "<group>"; };
+		F1BE8B5AE5DF14C6BF7E4DA30AAFF44A /* libPods-CheckScannerWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheckScannerWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33EBE49D4870E41EF7CA7162E84FF95 /* BCJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCJSONModel.h; path = Headers/BCJSONModel.h; sourceTree = "<group>"; };
+		F72A17F5DB970E28C0B7690B1CE113CD /* BCZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCZone.h; path = Headers/BCZone.h; sourceTree = "<group>"; };
+		F7676DF5F842C6CF872BE1890A45F585 /* BCLocalNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCLocalNotification.h; path = Headers/BCLocalNotification.h; sourceTree = "<group>"; };
+		FBE9E288A8DC2F2A7EA0A32BFCA00686 /* BCMicroLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BCMicroLocation.h; path = Headers/BCMicroLocation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56B3E7ECB7FB8C0B31D32D6B2A8CEF43 /* Frameworks */ = {
+		0BD82C3BA02C7A08AB74360C0813B15B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3AE21BEFB9FDC9A358E24AAF685957D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BB0EFE9CBD465A671783CEF302EFA7C /* Frameworks */ = {
+		94B0C68B38B82B7CDB1148DB7D842C4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B54BA6E1692D8054856C9D869D00A3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07F21AFEFF3AD5F6AF5000560EDA045F /* Pods */ = {
+		3E3D4CF62EF4CE8D49FE6755925511C2 /* Pods-CheckScannerWidget */ = {
 			isa = PBXGroup;
 			children = (
-				3F699A442FA492BBB81F2A0F0279D938 /* BlueCatsSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3F699A442FA492BBB81F2A0F0279D938 /* BlueCatsSDK */ = {
-			isa = PBXGroup;
-			children = (
-				1384CD396F9A91607D860E6882A608C6 /* BCAddress.h */,
-				D41511063812177B38F006351549509D /* BCApp.h */,
-				3DC7C2895D618760DDB82DBCDFA36D63 /* BCBatteryStatus.h */,
-				6B180B073BEB082E3B295A3E7BF2846A /* BCBeacon.h */,
-				A26F4F4C903CA311C0C99085D21568D9 /* BCBeacon+Analytics.h */,
-				950EA31DD03E66A6B17C2AB2FF5A4272 /* BCBeacon+Capabilities.h */,
-				D69C6447513CFFADFB45D36F714739A1 /* BCBeaconLoudness.h */,
-				8C96C370B94DE6054D3DE115F8B5A115 /* BCBeaconManager.h */,
-				681DE062537F13EA65A7384EA64154BC /* BCBeaconMode.h */,
-				FDFDBDD37FB49FC830D66ECF4EF47141 /* BCBeaconRegion.h */,
-				459CBEC77D9DB127ACDE8C108D8C125C /* BCBeaconVisit.h */,
-				3BCF6FD0AA29AB21961A9AF9DF6C736A /* BCCategory.h */,
-				C275D028A8F4528640A92CC44FE0E94A /* BCCategory+Analytics.h */,
-				ACCD12C2ED1CEAB4CF59DED427B5B940 /* BCCustomValue.h */,
-				138C0ED6078DD658BF1F7DA276F8DA5F /* BCDefinitions.h */,
-				D264FC30DF9C3CA3CC3249B1C7C84E75 /* BCEddystone.h */,
-				1090551199DB6451E6C4668F6AA5BC7D /* BCEvent.h */,
-				12E93B7D665E931A58AA61EF5D67A7D5 /* BCEventFilter.h */,
-				5EBD7E95D800A7F53DF895E1AE31F8EC /* BCEventFilterContext.h */,
-				8367193ECE8266C1805B8D8A369BF80F /* BCEventManager.h */,
-				C05EA0A0506F3DC17FED071E59B9B32D /* BCJSONModel.h */,
-				A21A54F5CC951E97F54E5E62DDFCC2C7 /* BCLasso.h */,
-				40C81561966FC669960D49686318B281 /* BCLassoManager.h */,
-				6F6385A26D5EAEC83D9596A9A76C0358 /* BCLocalNotification.h */,
-				4C0AAD02795E3DB6C5C23447F3E3904F /* BCLocalNotificationManager.h */,
-				CF81B3BBC751CD1D72AD610E010F5482 /* BCMap.h */,
-				C311E6B0AD4B77C8CB39C7B99AD32362 /* BCMapPoint.h */,
-				780DBD56B01E3B8B5551B3A0B305BBDF /* BCMicroLocation.h */,
-				9DA1BE971927E8224C061190EEF22C2D /* BCMicroLocationManager.h */,
-				915AD6B9BCE1715252FE67C5C51DA5A7 /* BCPlatformType.h */,
-				B81F06BFE8FE495381BA4326A3A1F075 /* BCPoint.h */,
-				B612FE98A296049C75E2D30D8E69FC14 /* BCResource.h */,
-				27F723E20102A6F4CEEB5E2D08E35780 /* BCSite.h */,
-				F7900C7AF04035D514CE06465B437731 /* BCSiteAccessType.h */,
-				2B6DE0B26087FA6A472B94CF655312AB /* BCTargetSpeed.h */,
-				63B73E1211D2ECAC69BE0352949A726B /* BCTemperatureData.h */,
-				9DC7C98547E4FE510F877D8806F65C10 /* BCTrigger.h */,
-				DB77CF7DFC15EE0957B0652AECBA8C1A /* BCTriggeredEvent.h */,
-				F651DFFF9C571354EFC5F2554A420C09 /* BCZone.h */,
-				5B5CB1D8B7643ADE5EE0B82F2985FE2D /* BCZoneMonitor.h */,
-				FF38E8D808B65D8708FFA10AC6F26978 /* BlueCatsSDK.h */,
-				6CFA11EB28FF9DFE52D26D644D828E04 /* NSPredicate+BCBeaconFilter.h */,
-				AEC261E12969DCAD64C8FB569C2BD237 /* Frameworks */,
-			);
-			path = BlueCatsSDK;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				07F21AFEFF3AD5F6AF5000560EDA045F /* Pods */,
-				D937326A506096DDA9FEA452B30550D3 /* Products */,
-				E3AB5225B6BF21AD8E9E8C9B8C6606B4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		883A71C563D69EEBB4C527C7EEBA9DFC /* Pods-CheckScanner */ = {
-			isa = PBXGroup;
-			children = (
-				FB1391E7693AFF41D0EDA2D0E9381039 /* Pods-CheckScanner-acknowledgements.markdown */,
-				56236273B2A7A37C1AB5693BAE10C080 /* Pods-CheckScanner-acknowledgements.plist */,
-				A0F31D2BED0CBF022A5AD1BF8408590C /* Pods-CheckScanner-dummy.m */,
-				8BBE7F85E5F2EC2563739B08550A8560 /* Pods-CheckScanner-frameworks.sh */,
-				2A466FBF7797889F00C17491F7648B6B /* Pods-CheckScanner-resources.sh */,
-				254FE1CFF2B33665E779C65E66A307E0 /* Pods-CheckScanner.debug.xcconfig */,
-				EF944C35133AD2236DF3B434F381F3C5 /* Pods-CheckScanner.release.xcconfig */,
-			);
-			name = "Pods-CheckScanner";
-			path = "Target Support Files/Pods-CheckScanner";
-			sourceTree = "<group>";
-		};
-		AEC261E12969DCAD64C8FB569C2BD237 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C445B4449B4D902CCFD7668E5C36092A /* libBlueCatsSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D937326A506096DDA9FEA452B30550D3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CECE590CA9913D42C940A0A6A0E2050A /* libPods-CheckScanner.a */,
-				CA666C792E7D7FE60B6A18228D5DA401 /* libPods-CheckScannerWidget.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E3AB5225B6BF21AD8E9E8C9B8C6606B4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				883A71C563D69EEBB4C527C7EEBA9DFC /* Pods-CheckScanner */,
-				FF5A7C6637546AA1B4A7E25C4654CDD5 /* Pods-CheckScannerWidget */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FF5A7C6637546AA1B4A7E25C4654CDD5 /* Pods-CheckScannerWidget */ = {
-			isa = PBXGroup;
-			children = (
-				3DB916C1361533A628D5B5223DF26EB5 /* Pods-CheckScannerWidget-acknowledgements.markdown */,
-				44258573A16AE63BEBECDD81C9B75EEC /* Pods-CheckScannerWidget-acknowledgements.plist */,
-				1A82442D4EB92FDA6CADC9DF7760A116 /* Pods-CheckScannerWidget-dummy.m */,
-				87D92AFA9F00921D83A63FA9E9D8E302 /* Pods-CheckScannerWidget-resources.sh */,
-				B4DE0995B76B71522F5DDD10D521FF67 /* Pods-CheckScannerWidget.debug.xcconfig */,
-				A9F0EC09BC64732EC296424E9552D083 /* Pods-CheckScannerWidget.release.xcconfig */,
+				1131DCD8BA59038CFA103E5C5198983D /* Pods-CheckScannerWidget-acknowledgements.markdown */,
+				81C346573077CD094F6C643334537726 /* Pods-CheckScannerWidget-acknowledgements.plist */,
+				1F9BF8693C385E998D0C360F5C66E8CD /* Pods-CheckScannerWidget-dummy.m */,
+				6624EBAB1E8B3B2D94B44AA95CD13A83 /* Pods-CheckScannerWidget.debug.xcconfig */,
+				13308CA57FEFBA7129E4832FA5778432 /* Pods-CheckScannerWidget.release.xcconfig */,
 			);
 			name = "Pods-CheckScannerWidget";
 			path = "Target Support Files/Pods-CheckScannerWidget";
 			sourceTree = "<group>";
 		};
+		3F3CAFE00255E2A309356901D0055968 /* Pods-CheckScanner */ = {
+			isa = PBXGroup;
+			children = (
+				3E672B536672586FDA19A910B378903D /* Pods-CheckScanner-acknowledgements.markdown */,
+				278E82B12DB72B377C89AAC67E84130E /* Pods-CheckScanner-acknowledgements.plist */,
+				0F1FDD74A1189A8FCEAC7C7481BBC634 /* Pods-CheckScanner-dummy.m */,
+				7623ED394272A227E13EDEE012C5C9FC /* Pods-CheckScanner.debug.xcconfig */,
+				28405D93EA323E3784418AF27C465B36 /* Pods-CheckScanner.release.xcconfig */,
+			);
+			name = "Pods-CheckScanner";
+			path = "Target Support Files/Pods-CheckScanner";
+			sourceTree = "<group>";
+		};
+		46B012A5EF82B12D54FA7C067BA336C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06A5E2745D5B03867635E70FB9A96CF9 /* libPods-CheckScanner.a */,
+				F1BE8B5AE5DF14C6BF7E4DA30AAFF44A /* libPods-CheckScannerWidget.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57E2813E9AAA1C85CC8B14F3B1ADB5F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3CAFE00255E2A309356901D0055968 /* Pods-CheckScanner */,
+				3E3D4CF62EF4CE8D49FE6755925511C2 /* Pods-CheckScannerWidget */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		638E50E8FA176F8A146771667114EF5D /* BlueCatsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4BB63AE560A4ECA1BA7A9A02FDDD1C51 /* BCAddress.h */,
+				A77D11C437672AE64DF7326A89B9208C /* BCApp.h */,
+				26404AE7C38478C34D266D1F4B761E02 /* BCBatteryStatus.h */,
+				7F9BF524DDB6F59D15F0A401D1D5227B /* BCBeacon.h */,
+				4D9AC40E9B85400FCD92F26EA3703E30 /* BCBeacon+Analytics.h */,
+				A66B589F03CA0AF3636896D483C03A75 /* BCBeacon+Features.h */,
+				4B507626C3C9DB0FA6CBCA29C47E2CB9 /* BCBeaconLoudness.h */,
+				AE81C56C0E29692343D0B8380E37E8B4 /* BCBeaconManager.h */,
+				0F2D61B3B105A55C82DB4CAD12407AF2 /* BCBeaconMode.h */,
+				C1ED54E79C1DA6ED06AEF1A3AE4F5677 /* BCBeaconRegion.h */,
+				C2BE75BD7D0CFCFC804A1FB749F9CB51 /* BCBeaconRegionVisit.h */,
+				8E8C00E03C684DD18CB76DE7B6875CF3 /* BCBeaconVisit.h */,
+				B7BEDCDBB5BEB8820CD4991C732D003D /* BCCategory.h */,
+				C096D31596941B3C6F132C460F9CAE53 /* BCCategory+Analytics.h */,
+				EC1395591845EA76D3D033F1A01DAA0D /* BCCustomValue.h */,
+				D552563188D0EB6E7C4FA06408848135 /* BCDefinitions.h */,
+				8E884F88BA9921F3ED6A5CAA78D37A0A /* BCEddystone.h */,
+				84A61D8EE3301254C39E73FE0F23DCE3 /* BCEvent.h */,
+				6DA01C6347453632217CA5AB042564BA /* BCEventFilter.h */,
+				0C50030BA6FED734BBDEB38D746ABA2B /* BCEventFilterContext.h */,
+				70A2773FCFC238C14ACA2867A63C622B /* BCEventManager.h */,
+				F33EBE49D4870E41EF7CA7162E84FF95 /* BCJSONModel.h */,
+				AFC64FA51F21A8BD90A4FCABD1818EC3 /* BCLasso.h */,
+				E9AA39B3DA6CEDB1BD14CC6BB29CAAF7 /* BCLassoManager.h */,
+				F7676DF5F842C6CF872BE1890A45F585 /* BCLocalNotification.h */,
+				CB82BBAC90B25943AF3545603145BCA0 /* BCLocalNotificationManager.h */,
+				0BBC24DA91296268DB1E159E5EB7A3F3 /* BCMap.h */,
+				1291F394ECB5AAC1D79382E011A52A03 /* BCMapPoint.h */,
+				A7635AE06DAA72EE2C254D148C56DD9B /* BCMeasurement.h */,
+				FBE9E288A8DC2F2A7EA0A32BFCA00686 /* BCMicroLocation.h */,
+				722CF72549DB29620BE1561AC5F1E02A /* BCMicroLocationManager.h */,
+				73E8D211B9CAF728C9B6B945BFD94909 /* BCPlatformType.h */,
+				1979010812212E59D892F658B7B9754A /* BCPoint.h */,
+				CE24027B768720D6B3F12439E0F81800 /* BCResource.h */,
+				CDB47425C45DF02A4855268FEFED7B1E /* BCSite.h */,
+				3FDC5203EB9A4DBB8CDF27322637BE53 /* BCSiteAccessType.h */,
+				6E7EB1CCBBAC37909562C140717E1C5E /* BCTargetSpeed.h */,
+				1B4988577ECE2D030DCA659B722A8DFA /* BCTrigger.h */,
+				18E979CFE93EA8646C746DF23EA6D1F8 /* BCTriggeredEvent.h */,
+				F72A17F5DB970E28C0B7690B1CE113CD /* BCZone.h */,
+				5C58A63FD4E771D417AA72CB9B3F737A /* BCZoneMonitor.h */,
+				53B6FA5FE9F65F07455010662325F9FD /* BlueCatsSDK.h */,
+				0BFFA55F9C0033435CDFB5A26C311AB4 /* NSPredicate+BCBeaconFilter.h */,
+				DFBC00989C47B228B6C5FB86145F996D /* Frameworks */,
+				EDF75CC886B357505E21272F7788E290 /* Support Files */,
+			);
+			path = BlueCatsSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				E5A2F9A46539F9A3C89A05E87CEE11A6 /* Pods */,
+				46B012A5EF82B12D54FA7C067BA336C9 /* Products */,
+				57E2813E9AAA1C85CC8B14F3B1ADB5F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFBC00989C47B228B6C5FB86145F996D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F6EC1B5DA3CE93185C60631BD369169 /* libBlueCatsSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5A2F9A46539F9A3C89A05E87CEE11A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				638E50E8FA176F8A146771667114EF5D /* BlueCatsSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF75CC886B357505E21272F7788E290 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61D3CA3B53DF5E95AD7897C104E18DF3 /* BlueCatsSDK.debug.xcconfig */,
+				0ED117D1F9B282856AE061B552CCF33B /* BlueCatsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlueCatsSDK";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		54C309A3AC8D1E686B5EFE2C89236D0A /* Pods-CheckScannerWidget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D0D0F81A685E283BC73806AD1233BC4 /* Build configuration list for PBXNativeTarget "Pods-CheckScannerWidget" */;
-			buildPhases = (
-				CA291F06370AC06EEECA516CC7D8262D /* Sources */,
-				56B3E7ECB7FB8C0B31D32D6B2A8CEF43 /* Frameworks */,
+/* Begin PBXHeadersBuildPhase section */
+		679CF21493945A058DD5BEFE17BC9D1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CheckScannerWidget";
-			productName = "Pods-CheckScannerWidget";
-			productReference = CA666C792E7D7FE60B6A18228D5DA401 /* libPods-CheckScannerWidget.a */;
-			productType = "com.apple.product-type.library.static";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		799B2D30A353936E57C101FA3B7599BD /* Pods-CheckScanner */ = {
+		D1EC2C4D752C0F3B157743B27E5B06E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16E9985F4C35980F86FA633B85140FEF /* Pods-CheckScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62F2DAB7E08104BC7CB1BE7C679A88F9 /* Build configuration list for PBXNativeTarget "Pods-CheckScanner" */;
+			buildConfigurationList = 129FBD1F01D9057DF2865959731824D2 /* Build configuration list for PBXNativeTarget "Pods-CheckScanner" */;
 			buildPhases = (
-				913DAC5237B1C02B7D5B507DA56D403C /* Sources */,
-				9BB0EFE9CBD465A671783CEF302EFA7C /* Frameworks */,
+				679CF21493945A058DD5BEFE17BC9D1E /* Headers */,
+				1BBF30E02AA252F55B94D0EB4EF8C1EE /* Sources */,
+				0BD82C3BA02C7A08AB74360C0813B15B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A29DD35CB802C30451D319F5377EA0FC /* PBXTargetDependency */,
 			);
 			name = "Pods-CheckScanner";
 			productName = "Pods-CheckScanner";
-			productReference = CECE590CA9913D42C940A0A6A0E2050A /* libPods-CheckScanner.a */;
+			productReference = 06A5E2745D5B03867635E70FB9A96CF9 /* libPods-CheckScanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D4A8C03AC7CC2E9272DBA60962D03F22 /* Pods-CheckScannerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB45A17171633DF831B8475CD9602327 /* Build configuration list for PBXNativeTarget "Pods-CheckScannerWidget" */;
+			buildPhases = (
+				D1EC2C4D752C0F3B157743B27E5B06E1 /* Headers */,
+				D96089A5F632984989E26C5C341B4300 /* Sources */,
+				94B0C68B38B82B7CDB1148DB7D842C4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BB8236B50ABDD2AB21789618AEA9F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CheckScannerWidget";
+			productName = "Pods-CheckScannerWidget";
+			productReference = F1BE8B5AE5DF14C6BF7E4DA30AAFF44A /* libPods-CheckScannerWidget.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D937326A506096DDA9FEA452B30550D3 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 46B012A5EF82B12D54FA7C067BA336C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				799B2D30A353936E57C101FA3B7599BD /* Pods-CheckScanner */,
-				54C309A3AC8D1E686B5EFE2C89236D0A /* Pods-CheckScannerWidget */,
+				AEC4C121232D1676F82FC7D66CF8752F /* BlueCatsSDK */,
+				16E9985F4C35980F86FA633B85140FEF /* Pods-CheckScanner */,
+				D4A8C03AC7CC2E9272DBA60962D03F22 /* Pods-CheckScannerWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		913DAC5237B1C02B7D5B507DA56D403C /* Sources */ = {
+		1BBF30E02AA252F55B94D0EB4EF8C1EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC8784793466573042FEF77463FD7E5 /* Pods-CheckScanner-dummy.m in Sources */,
+				D7BFBCFA682F41A9E537364EA118EDA2 /* Pods-CheckScanner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA291F06370AC06EEECA516CC7D8262D /* Sources */ = {
+		D96089A5F632984989E26C5C341B4300 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF3DC253449B805D87704E5D2A117E1F /* Pods-CheckScannerWidget-dummy.m in Sources */,
+				AB52A3DC83E390B4765DAF436FA255DC /* Pods-CheckScannerWidget-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		04D80975A6A5DA14FDB3B0077E121B0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 254FE1CFF2B33665E779C65E66A307E0 /* Pods-CheckScanner.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		A29DD35CB802C30451D319F5377EA0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueCatsSDK;
+			target = AEC4C121232D1676F82FC7D66CF8752F /* BlueCatsSDK */;
+			targetProxy = 9410B0379A69131345E7C5BC5CB293CD /* PBXContainerItemProxy */;
 		};
-		09C34F4D8737DD4BBCF94DC4822A6916 /* Release */ = {
+		F3BB8236B50ABDD2AB21789618AEA9F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueCatsSDK;
+			target = AEC4C121232D1676F82FC7D66CF8752F /* BlueCatsSDK */;
+			targetProxy = 3D23AC9FB0E8ED009E8741419B3CF206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06C195708B5D855E1055B851942D25B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF944C35133AD2236DF3B434F381F3C5 /* Pods-CheckScanner.release.xcconfig */;
+			baseConfigurationReference = 28405D93EA323E3784418AF27C465B36 /* Pods-CheckScanner.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -389,17 +429,19 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -408,87 +450,91 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		AF3B877FC505AE4750721A51C066D0C0 /* Debug */ = {
+		1D41CB4FDDB43D49C9F2A011F69FF8BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4DE0995B76B71522F5DDD10D521FF67 /* Pods-CheckScannerWidget.debug.xcconfig */;
+			baseConfigurationReference = 61D3CA3B53DF5E95AD7897C104E18DF3 /* BlueCatsSDK.debug.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BC108D1176E41A2900EFFA214BE97B8A /* Release */ = {
+		6A900BBE15477ACFB7969E38434FDB64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9F0EC09BC64732EC296424E9552D083 /* Pods-CheckScannerWidget.release.xcconfig */;
+			baseConfigurationReference = 0ED117D1F9B282856AE061B552CCF33B /* BlueCatsSDK.release.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D410F7F4053AFD1FF4282537CB9F2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6624EBAB1E8B3B2D94B44AA95CD13A83 /* Pods-CheckScannerWidget.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -497,32 +543,82 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B039E39EF1F222B0DE1D94CD12FEE505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7623ED394272A227E13EDEE012C5C9FC /* Pods-CheckScanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCCB98AC7A4C0F722307933E7BD20B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13308CA57FEFBA7129E4832FA5778432 /* Pods-CheckScannerWidget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -530,34 +626,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		129FBD1F01D9057DF2865959731824D2 /* Build configuration list for PBXNativeTarget "Pods-CheckScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
-				C03B8870130C98D1B02B59D003687524 /* Release */,
+				B039E39EF1F222B0DE1D94CD12FEE505 /* Debug */,
+				06C195708B5D855E1055B851942D25B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62F2DAB7E08104BC7CB1BE7C679A88F9 /* Build configuration list for PBXNativeTarget "Pods-CheckScanner" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04D80975A6A5DA14FDB3B0077E121B0A /* Debug */,
-				09C34F4D8737DD4BBCF94DC4822A6916 /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D0D0F81A685E283BC73806AD1233BC4 /* Build configuration list for PBXNativeTarget "Pods-CheckScannerWidget" */ = {
+		D525151F0B8FE1DA7642F2069B80379E /* Build configuration list for PBXAggregateTarget "BlueCatsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF3B877FC505AE4750721A51C066D0C0 /* Debug */,
-				BC108D1176E41A2900EFFA214BE97B8A /* Release */,
+				1D41CB4FDDB43D49C9F2A011F69FF8BE /* Debug */,
+				6A900BBE15477ACFB7969E38434FDB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB45A17171633DF831B8475CD9602327 /* Build configuration list for PBXNativeTarget "Pods-CheckScannerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D410F7F4053AFD1FF4282537CB9F2A6 /* Debug */,
+				FCCB98AC7A4C0F722307933E7BD20B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

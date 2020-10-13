@@ -1,1 +1,0 @@
-../../../BlueCatsSDK/Headers/BCBeacon+Capabilities.h

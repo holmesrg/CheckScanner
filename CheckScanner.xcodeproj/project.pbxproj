@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00019D121FA00EB300D851A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00019D111FA00EB300D851A5 /* AppDelegate.swift */; };
-		00019D141FA00EB300D851A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00019D131FA00EB300D851A5 /* ViewController.swift */; };
 		00019D171FA00EB300D851A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00019D151FA00EB300D851A5 /* Main.storyboard */; };
 		00019D191FA00EB300D851A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00019D181FA00EB300D851A5 /* Assets.xcassets */; };
 		00019D1C1FA00EB300D851A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00019D1A1FA00EB300D851A5 /* LaunchScreen.storyboard */; };
@@ -23,12 +22,12 @@
 		005B545A1FC66A69000DBCC1 /* Cafe Stamper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B54571FC66A68000DBCC1 /* Cafe Stamper@2x.png */; };
 		005B545B1FC66A69000DBCC1 /* Cafe Stamper@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B54581FC66A68000DBCC1 /* Cafe Stamper@3x.png */; };
 		005B545C1FC66A69000DBCC1 /* Cafe Stamper.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B54591FC66A69000DBCC1 /* Cafe Stamper.png */; };
-		005B54601FC66DC6000DBCC1 /* Stamp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B545D1FC66DC6000DBCC1 /* Stamp@3x.png */; };
-		005B54611FC66DC6000DBCC1 /* Stamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B545E1FC66DC6000DBCC1 /* Stamp.png */; };
-		005B54621FC66DC6000DBCC1 /* Stamp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005B545F1FC66DC6000DBCC1 /* Stamp@2x.png */; };
 		005B546F1FC67D98000DBCC1 /* DoNothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005B546E1FC67D98000DBCC1 /* DoNothingViewController.swift */; };
 		006ABC0C1FB1846B00E05771 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 006ABC0B1FB1846B00E05771 /* Config.plist */; };
 		006ABC101FB18E5400E05771 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006ABC0F1FB18E5400E05771 /* SettingsView.swift */; };
+		00FDD67A251C4A8700E977C0 /* Stamp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FDD677251C4A8500E977C0 /* Stamp@2x.png */; };
+		00FDD67B251C4A8700E977C0 /* Stamp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FDD678251C4A8600E977C0 /* Stamp@3x.png */; };
+		00FDD67C251C4A8700E977C0 /* Stamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FDD679251C4A8700E977C0 /* Stamp.png */; };
 		4F7624189087828156FAE0F5 /* libPods-CheckScannerWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40F02250C45B202692F9286 /* libPods-CheckScannerWidget.a */; };
 		B20C2315BF222D3B0B33792A /* libPods-CheckScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E99805AD51247498F1F944BD /* libPods-CheckScanner.a */; };
 /* End PBXBuildFile section */
@@ -60,7 +59,6 @@
 /* Begin PBXFileReference section */
 		00019D0E1FA00EB300D851A5 /* CheckScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00019D111FA00EB300D851A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00019D131FA00EB300D851A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00019D161FA00EB300D851A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00019D181FA00EB300D851A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00019D1B1FA00EB300D851A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,12 +81,12 @@
 		005B54571FC66A68000DBCC1 /* Cafe Stamper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cafe Stamper@2x.png"; sourceTree = SOURCE_ROOT; };
 		005B54581FC66A68000DBCC1 /* Cafe Stamper@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cafe Stamper@3x.png"; sourceTree = SOURCE_ROOT; };
 		005B54591FC66A69000DBCC1 /* Cafe Stamper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cafe Stamper.png"; sourceTree = SOURCE_ROOT; };
-		005B545D1FC66DC6000DBCC1 /* Stamp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stamp@3x.png"; sourceTree = SOURCE_ROOT; };
-		005B545E1FC66DC6000DBCC1 /* Stamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stamp.png; sourceTree = SOURCE_ROOT; };
-		005B545F1FC66DC6000DBCC1 /* Stamp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stamp@2x.png"; sourceTree = SOURCE_ROOT; };
 		005B546E1FC67D98000DBCC1 /* DoNothingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoNothingViewController.swift; sourceTree = "<group>"; };
 		006ABC0B1FB1846B00E05771 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		006ABC0F1FB18E5400E05771 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		00FDD677251C4A8500E977C0 /* Stamp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stamp@2x.png"; sourceTree = "<group>"; };
+		00FDD678251C4A8600E977C0 /* Stamp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stamp@3x.png"; sourceTree = "<group>"; };
+		00FDD679251C4A8700E977C0 /* Stamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stamp.png; sourceTree = "<group>"; };
 		4771DBEA5691D68C0B750557 /* Pods-CheckScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckScanner/Pods-CheckScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF92167CD1CDE5517FBD424 /* Pods-CheckScannerWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckScannerWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckScannerWidget/Pods-CheckScannerWidget.debug.xcconfig"; sourceTree = "<group>"; };
 		9F53334F9E6FE5CB03AF7DEA /* Pods-CheckScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckScanner/Pods-CheckScanner.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 				005B54311FC51305000DBCC1 /* CheckScanner.entitlements */,
 				00019D271FA00EE400D851A5 /* Objective-C */,
 				00019D111FA00EB300D851A5 /* AppDelegate.swift */,
-				00019D131FA00EB300D851A5 /* ViewController.swift */,
 				006ABC0F1FB18E5400E05771 /* SettingsView.swift */,
 				005B546E1FC67D98000DBCC1 /* DoNothingViewController.swift */,
 				00019D151FA00EB300D851A5 /* Main.storyboard */,
@@ -186,9 +183,9 @@
 		005B544A1FC6691F000DBCC1 /* Widget Images */ = {
 			isa = PBXGroup;
 			children = (
-				005B545E1FC66DC6000DBCC1 /* Stamp.png */,
-				005B545F1FC66DC6000DBCC1 /* Stamp@2x.png */,
-				005B545D1FC66DC6000DBCC1 /* Stamp@3x.png */,
+				00FDD679251C4A8700E977C0 /* Stamp.png */,
+				00FDD677251C4A8500E977C0 /* Stamp@2x.png */,
+				00FDD678251C4A8600E977C0 /* Stamp@3x.png */,
 				005B54591FC66A69000DBCC1 /* Cafe Stamper.png */,
 				005B54571FC66A68000DBCC1 /* Cafe Stamper@2x.png */,
 				005B54581FC66A68000DBCC1 /* Cafe Stamper@3x.png */,
@@ -229,8 +226,6 @@
 				00019D0A1FA00EB300D851A5 /* Sources */,
 				00019D0B1FA00EB300D851A5 /* Frameworks */,
 				00019D0C1FA00EB300D851A5 /* Resources */,
-				3673FB47B47DE830097207A1 /* [CP] Embed Pods Frameworks */,
-				53227FE1E4345C02BC30C131 /* [CP] Copy Pods Resources */,
 				005B542F1FC51245000DBCC1 /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -251,7 +246,6 @@
 				005B541B1FC51245000DBCC1 /* Sources */,
 				005B541C1FC51245000DBCC1 /* Frameworks */,
 				005B541D1FC51245000DBCC1 /* Resources */,
-				6B443E67A0A411B8757C1EC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,7 +263,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Ron Holmes";
 				TargetAttributes = {
 					00019D0D1FA00EB300D851A5 = {
@@ -334,11 +328,11 @@
 			files = (
 				005B545B1FC66A69000DBCC1 /* Cafe Stamper@3x.png in Resources */,
 				005B545C1FC66A69000DBCC1 /* Cafe Stamper.png in Resources */,
-				005B54611FC66DC6000DBCC1 /* Stamp.png in Resources */,
 				005B545A1FC66A69000DBCC1 /* Cafe Stamper@2x.png in Resources */,
 				005B54271FC51245000DBCC1 /* MainInterface.storyboard in Resources */,
-				005B54621FC66DC6000DBCC1 /* Stamp@2x.png in Resources */,
-				005B54601FC66DC6000DBCC1 /* Stamp@3x.png in Resources */,
+				00FDD67A251C4A8700E977C0 /* Stamp@2x.png in Resources */,
+				00FDD67C251C4A8700E977C0 /* Stamp.png in Resources */,
+				00FDD67B251C4A8700E977C0 /* Stamp@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,51 +355,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3673FB47B47DE830097207A1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckScanner/Pods-CheckScanner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		53227FE1E4345C02BC30C131 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckScanner/Pods-CheckScanner-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6B443E67A0A411B8757C1EC8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckScannerWidget/Pods-CheckScannerWidget-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C13249E08C566BEE5D157CDF /* [CP] Check Pods Manifest.lock */ = {
@@ -434,7 +383,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				006ABC101FB18E5400E05771 /* SettingsView.swift in Sources */,
-				00019D141FA00EB300D851A5 /* ViewController.swift in Sources */,
 				00019D121FA00EB300D851A5 /* AppDelegate.swift in Sources */,
 				005B546F1FC67D98000DBCC1 /* DoNothingViewController.swift in Sources */,
 				00019D261FA00ED500D851A5 /* StarterClass.m in Sources */,
@@ -514,6 +462,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -540,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -574,6 +523,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -594,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -615,6 +565,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 546M748H58;
 				INFOPLIST_FILE = CheckScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluecats.CheckScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -622,7 +573,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CheckScanner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -640,13 +591,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 546M748H58;
 				INFOPLIST_FILE = CheckScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluecats.CheckScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CheckScanner-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -663,14 +615,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 546M748H58;
 				INFOPLIST_FILE = CheckScannerWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluecats.CheckScanner.CheckScannerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CheckScannerWidget/CheckScannerWidget-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -687,13 +639,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 546M748H58;
 				INFOPLIST_FILE = CheckScannerWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluecats.CheckScanner.CheckScannerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CheckScannerWidget/CheckScannerWidget-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

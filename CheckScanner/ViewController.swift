@@ -29,6 +29,7 @@ class ViewController: UIViewController, BCBeaconManagerDelegate {
     //MARK:- View methods
     
     override func viewDidLoad() {
+        print ("Entered Viewcontroller")
         super.viewDidLoad()
         
         formatter.dateFormat = "HH:mm:ss.SSS"
@@ -174,7 +175,7 @@ class ViewController: UIViewController, BCBeaconManagerDelegate {
         self.present(activityViewController, animated: true, completion: nil)
         
         // restart scrolling
-        activityViewController.completionWithItemsHandler = { (activityType: UIActivityType?, completed: Bool, returnedItems: [Any]?, errorCode: Error?) in
+        activityViewController.completionWithItemsHandler = { (activityType: UIActivity.ActivityType?, completed: Bool, returnedItems: [Any]?, errorCode: Error?) in
             if (!self.autoScrollOn) {
                 self.startStopAutoScrolling(self)
             }

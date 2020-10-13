@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Loyalty Stamper</string>
+	<string>Vix Tap</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,6 +26,8 @@
 	<string>Scanning beacons</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Scanning Beacons</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>&quot;Scanning Beacons&quot;</string>
 	<key>NSLocationUsageDescription</key>
 	<string>Scanning Beacons</string>
 	<key>NSLocationWhenInUseUsageDescription</key>

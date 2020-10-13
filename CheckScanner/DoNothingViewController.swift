@@ -18,13 +18,28 @@ class DoNothingViewController: UIViewController, BCBeaconManagerDelegate {
     @IBOutlet weak var appToken: UILabel!
     
     override func viewDidLoad() {
+       
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-//        guard let defaults = UserDefaults(suiteName: "group.com.bluecats.checkscanner") else {
+
+        let defaults = UserDefaults.standard
+
+        for (key, value) in defaults.dictionaryRepresentation() {
+            print("\(key) = \(value) \n")
+        }
+
+        //         Do any additional setup after loading the view.
+//        guard UserDefaults(suiteName: "group.com.bluecats.checkscanner") != nil else {
 //            print("Couldn't read defaults")
 //            return
 //        }
+//        
+//        guard let appTokenKey = defaults.string(forKey: "BCKAppTokenKey") else {
+//            performSegue(withIdentifier: "SetAppToken", sender: self)
+//            return
+//        }
 //
+//        print ("\(appTokenKey)")
+        
 //        guard let appTokenKey = defaults.string(forKey: "BCKAppTokenKey") else {
 //            performSegue(withIdentifier: "SetAppToken", sender: self)
 //            return
@@ -107,7 +122,7 @@ class DoNothingViewController: UIViewController, BCBeaconManagerDelegate {
     
     func beaconManager(_ monitor: BCBeaconManager!, didRangeBeacons beacons: [BCBeacon]!) {
         for currentBeacon in beacons {
-            print ("\(currentBeacon.serialNumber ?? "__")")
+            print ("\(currentBeacon.description ?? "__")")
         }
     }
 
